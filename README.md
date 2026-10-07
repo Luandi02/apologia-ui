@@ -56,11 +56,9 @@ apologia-ui/
 - 提交 PR 补充设计案例或技能实现
 - 分享使用这套体系的落地经验
 
-## 开源协议
-
 ## 许可协议 (License)
 
-MIT / Apache 2.0
+[MIT](LICENSE) © 2026 Luandi02
 
 ---
 
