@@ -30,9 +30,21 @@ Apologia-ui**以意图为核心的界面AI 生成技能**。
 ## 📂 仓库结构
 
 ```
-socratic-wayfinding/
-├── docs/               # 设计哲学、规范文档与原则说明
-├── skill/              # AI技能提示词
+apologia-ui/
+├── skills/apologia-ui/
+│   ├── SKILL.md        # 推导引擎本体 + 分册索引
+│   ├── core.md         # 引擎常量：五类意图罗盘 / 频率×失败代价
+│   └── modules/        # 分册（按需加载）
+│       ├── layout.md       # 页面骨架、栅格、视觉权重
+│       ├── navigation.md   # 导航、面包屑、返回
+│       ├── sidebar.md      # 侧边栏
+│       ├── button.md       # 按钮、主次动作
+│       ├── form.md         # 表单、输入、校验
+│       ├── card.md         # 卡片、列表项
+│       ├── modal.md        # 弹窗、抽屉
+│       ├── table.md        # 表格、数据展示
+│       └── feedback.md     # 空状态、加载、报错
+├── docs/               # 设计哲学与说明文档
 └── README.md           # 项目说明文档
 ```
 
